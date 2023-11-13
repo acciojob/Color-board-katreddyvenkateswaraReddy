@@ -1,19 +1,33 @@
 /*  your css code here. If applicable */
-.container{
-	width:1500px;
-	height:750px;
-	background-color:black;
-	display:grid;
-	padding:10px;
-	grid-template-columns:repeat(40,1fr);
-	grid-template-rows:repeat(20,1fr);
-	gap:5px;
-}
-
-.box{
-	background-color:grey;
-	transition: background-color 1s;
-}
-.box:hover{
-	background-color:red;	
-}
+* {
+    box-sizing: border-box;
+  }
+  
+  body{
+    background: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+  }
+  .square{
+    background-color: red;
+    box-shadow: 0 0 2px #000;
+    height: 16px;
+    width: 16px;
+    margin: 2px;
+    transition: 5s ease;
+  }
+  
+  .square:hover{
+    transition-duration: 0s;
+  }
