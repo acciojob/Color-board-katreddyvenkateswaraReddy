@@ -16,7 +16,7 @@
    
 }
 .square{
-/*     background-color: rgb(29, 29, 29); */
+    background-color: rgb(29, 29, 29);
     width: 25px;
     height: 25px;
     transition: all 0.4s ease-in;
